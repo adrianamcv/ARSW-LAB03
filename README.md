@@ -29,13 +29,13 @@ Rta: **A que existe un hilo en modo sleep, en la clase producer.**
 
 Rta: **Para mejorar el redimiento el productor debe notificar al consumidor cada vez que agrega un nuevo elemento a la lista para que el consumidor pueda tomarlo.**
 
-![](img/tres.png)
+![](img/tres.PNG)
 
 **3.** Haga que ahora el productor produzca muy rápido, y el consumidor consuma lento. Teniendo en cuenta que el productor conoce un límite de Stock (cuantos elementos debería tener, a lo sumo en la cola), haga que dicho límite se respete. Revise el API de la colección usada como cola para ver cómo garantizar que dicho límite no se supere. Verifique que, al poner un límite pequeño para el 'stock', no haya consumo alto de CPU ni errores.
 
 Rta: **Para que el consumidor sea más lento hicimos que el consumidor sólo pueda comenzar una vez la lista ya se encuentre llena**
 
-![](img/cuatro.png)
+![](img/cuatro.PNG)
 
 
 #### Parte II. – Antes de terminar la clase.
