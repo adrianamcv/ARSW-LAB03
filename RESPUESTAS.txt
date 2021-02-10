@@ -1,0 +1,4 @@
+El invariante depende de el número de jugadores: N*Default_Inmortal_Health
+
+Al implementar la lista de lista de inmortales como copyonwritearraylist evitamos que exista la condicion de carrera cuando se crean muchos inmortales, ya que está sincronizada y es a prueba de errores.
+Sin embargo, se presenta el problema de que cuando existan muchos inmortales, en un momento, estos se van a quedar en espera y niinguno enviará la señal para que la operación pueda continuar.
